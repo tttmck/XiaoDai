@@ -1,0 +1,6 @@
+<!--pages/chart/chart.wxml-->
+<view class='all'>
+<view class='txt'>用户行为分析</view>
+<canvas class='canvas' canvas-id="canvas1"></canvas>
+
+</view>

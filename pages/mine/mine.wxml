@@ -1,0 +1,72 @@
+<!--pages/mine/mine.wxml-->
+
+<view class='aboutall'>
+
+  <view class='card'>
+    <view class="my_title">
+      <view class='touxiang'>
+        <open-data type="userAvatarUrl"></open-data>
+      </view>
+      <view class='name'>
+        <open-data type = "userNickName" lang = "zh_CN"></open-data>
+      </view>
+    </view>
+  </view>
+
+
+  <navigator url='../mySet/mySet'>
+    <view class="my_tag">
+      <view class="my_logo">
+        <image class="my_pic" src="../../images/gear.jpg"></image>
+      </view>
+      <view class="tag_name">
+        个人设置
+      </view>
+      <view class="go_logo">
+        <image class="my_pic" src="../../images/go_logo.png"></image>
+      </view>
+    </view>
+  </navigator>
+
+  <navigator url='../myInfo/myInfo'>
+  <view class="my_tag">
+    <view class="my_logo">
+      <image class="my_pic" src="../../images/shield.jpg"></image>
+    </view>
+    <view class="tag_name">
+      消息通知
+    </view>
+    <view class="go_logo">
+      <image class="my_pic" src="../../images/go_logo.png"></image>
+    </view>
+  </view>
+  </navigator>
+  
+
+  <navigator url='../fedback/fedback'>
+  <view class="my_tag">
+    <view class="my_logo">
+      <image class="my_pic" src="../../images/star.jpg"></image>
+    </view>
+    <view class="tag_name">
+      问题反馈
+    </view>
+    <view class="go_logo">
+      <image class="my_pic" src="../../images/go_logo.png"></image>
+    </view>
+  </view>
+  </navigator>
+
+  <view class="my_tag" bindtap = 'charts' >
+    <view class="my_logo">
+      <image class="my_pic" src="../../images/charts.png"></image>
+    </view>
+    <view class="tag_name">
+      图表分析
+    </view>
+    <view class="go_logo">
+      <image class="my_pic" src="../../images/go_logo.png"></image>
+    </view> 
+  </view > 
+  
+</view>

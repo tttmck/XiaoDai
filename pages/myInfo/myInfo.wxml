@@ -1,0 +1,74 @@
+<!--pages/myInfo/myInfo.wxml-->
+<view class='aboutAll'>
+  <view class='head'>
+      <view class='txt'>
+        消息通知
+      </view>
+  </view>
+
+  <view class='info'>
+    <view class='info_logo'>
+      <image class='info_img' src='../../images/提醒.png'></image>
+    </view>
+    <view class='infoTxt'>
+      <view class='infoH'>
+        <view class='infoH1'>系统通知</view>
+        <view class='infoH2'>上午10:21</view>
+      </view>
+      <view class='infoT'>蒹葭采采，白露未已</view>
+    </view>
+  </view>
+
+  <view class='info'>
+    <view class='info_logo'>
+      <image class='info_img' src='../../images/提醒.png'></image>
+    </view>
+    <view class='infoTxt'>
+      <view class='infoH'>
+        <view class='infoH1'>系统通知</view>
+        <view class='infoH2'>上午10:21</view>
+      </view>
+      <view class='infoT'>蒹葭采采，白露未已</view>
+    </view>
+  </view>
+
+  <view class='info'>
+    <view class='info_logo'>
+      <image class='info_img' src='../../images/睡眠.png'></image>
+    </view>
+    <view class='infoTxt'>
+      <view class='infoH'>
+        <view class='infoH1'>睡眠通知</view>
+        <view class='infoH2'>上午10:21</view>
+      </view>
+      <view class='infoT'>蒹葭苍苍，白露为霜</view>
+    </view>
+  </view>
+
+  <view class='info'>
+    <view class='info_logo'>
+      <image class='info_img' src='../../images/安全.png'></image>
+    </view>
+    <view class='infoTxt'>
+      <view class='infoH'>
+        <view class='infoH1'>安全通知</view>
+        <view class='infoH2'>上午10:21</view>
+      </view>
+      <view class='infoT'>蒹葭萋萋，白露未晞</view>
+    </view>
+  </view>
+
+  <view class='info'>
+    <view class='info_logo'>
+      <image class='info_img' src='../../images/消息.png'></image>
+    </view>
+    <view class='infoTxt'>
+      <view class='infoH'>
+        <view class='infoH1'>消息通知</view>
+        <view class='infoH2'>上午10:21</view>
+      </view>
+      <view class='infoT'>所谓伊人，在水之湄</view>
+    </view>
+  </view>
+</view>
+

@@ -1,0 +1,59 @@
+page{background-color:#f3f6f8;}
+
+.divide{
+  height: 35rpx;
+}
+
+.my_title{
+  margin-top: 220rpx;
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  height: 3em;
+}
+
+.touxiang{
+  overflow: hidden;
+  display: flex;
+  height: 3em;
+  width: 3em;
+  /* justify-content: center;
+  align-items: center; */
+  border-radius: 2em;
+}
+
+.name{
+  margin-left: 10rpx;
+  display: flex;
+  font-size: 25rpx;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.my_tag{
+  display: flex;
+  text-align: center;
+  padding: 10rpx;
+  background: white;
+  border-bottom: 2rpx solid #f3f6f8;
+}
+.my_logo{
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+.tag_name{
+  font: 20rpx;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  width: 250rpx;
+  margin-left: 10rpx;
+}
+.my_pic{
+   width:80rpx;
+   height:80rpx;
+}
+.go_logo{
+  margin-left: 450rpx;
+}

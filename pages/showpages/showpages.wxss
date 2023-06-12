@@ -1,0 +1,85 @@
+/* pages/showpages/showpages.wxss */
+.showimg{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+.img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  animation: card-in 1s;
+}
+
+
+.img1{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  animation: card-in1 1s;
+}
+
+
+.img2{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  animation: card-in2 1s;
+}
+
+
+.img3{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  animation: card-in3 1s;
+}
+
+
+@keyframes card-in{
+  0%{
+    left: 100%;
+  }
+  100%{
+    left: 0%;
+  }
+}
+@keyframes card-in1{
+  0%{
+    left: 100%;
+  }
+  100%{
+    left: 0%;
+  }
+}
+@keyframes card-in2{
+  0%{
+    left: 100%;
+  }
+  100%{
+    left: 0%;
+  }
+}
+@keyframes card-in3{
+  0%{
+    left: 100%;
+  }
+  100%{
+    left: 0%;
+  }
+}
+
+.showbut{
+  position: absolute;
+  right: 0;
+  bottom: 3%;
+  width: 6.5rem;
+  background-color: rgb(253, 162, 44);
+  border-radius: 2rem;
+  z-index: 2;
+  transform: scale(0.6);
+  box-shadow: 0 0 0.5rem gray;
+  font-weight: 800;
+}

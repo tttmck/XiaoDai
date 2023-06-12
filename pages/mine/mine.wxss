@@ -1,0 +1,89 @@
+/* pages/mine/mine.wxss */
+page {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.aboutall{
+  position: relative;
+  text-align: center;
+  background:#f3f6f8;
+
+}
+
+.card{
+  display: flex;
+  background: url(https://687a-hztx-8bc80c-1257718290.tcb.qcloud.la/bg_pic.jpg?sign=f5bb9ca06bd2945d53894a28ca60199a&t=1558517015);
+  background-size: 100% 100%;
+  position: relative;
+  width: 100%;
+  height: 320rpx;
+  margin-bottom: 20rpx;
+  /* top: 1em;
+  left: 2.5%;
+  flex-wrap: wrap;
+  background-color: pink;
+  border-radius: 2em;
+  box-shadow: 0 0 0.4em #f3f6f8; */
+}
+
+.my_title{
+  margin-top: 220rpx;
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  height: 3em;
+}
+
+.touxiang{
+  overflow: hidden;
+  display: flex;
+  height: 3em;
+  width: 3em;
+  border: 0.1rem solid rgb(255, 218, 139);
+  /* justify-content: center;
+  align-items: center; */
+  border-radius: 2em;
+}
+
+.name{
+  margin-left: 10rpx;
+  display: flex;
+  font-size: 25rpx;
+  font-weight: 600;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.my_tag{
+  display: flex;
+  text-align: center;
+  padding: 10rpx;
+  background: white;
+  border-bottom: 2rpx solid #f3f6f8;
+  border: 0.02rem solid rgb(255, 231, 125);
+}
+.my_logo{
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+.tag_name{
+  font: 30rpx;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.my_pic{
+   width:80rpx;
+   height:80rpx;
+}
+.go_logo{
+  margin-left: 390rpx;
+}
+
+
+
+

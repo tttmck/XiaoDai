@@ -1,0 +1,12 @@
+<!--pages/fedback/fedback.wxml-->
+<view class='outview'>问题反馈</view>
+
+<view class='write'>
+  <textarea class='txt' placeholder='问题具体发生原因、时间'></textarea>
+</view>
+
+<view class='write1'>
+  <input  class='txt1' placeholder='联系方式（qq、电话或邮箱）'></input>
+</view>
+
+<button class='fedback' bindtap='up'>提交反馈</button>

@@ -1,0 +1,68 @@
+page {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+
+.defaultcard{
+  position: relative;
+  margin-bottom: 3em;
+  top: 1em;
+  width: 90%;
+  /* left:5%; */
+  margin: 0 auto;
+  height: 15rem;
+  background-color: white;
+  /* background-image: url(https://687a-hztx-8bc80c-1257718290.tcb.qcloud.la/kl.jpg?sign=79a948b0ce87215b94f6602cffb1dec4&t=1558860810); */
+  border: 7rpx solid rgb(253, 199, 22);
+  border-radius: 1em;
+  box-shadow: -0.2em 0.2em 0.6em rgb(175, 175, 175);
+  overflow: scroll;
+  background-size: cover;
+}
+
+.txt{
+  position: relative;
+  top:20rpx;
+  /* left: 6%; */
+  margin: 0 auto;
+  font-weight: 800;
+}
+
+.addcard{
+  position: relative;
+  float: left;
+  left: 15rpx;
+  width: 20%;
+}
+
+.cards{
+  position: relative;
+  text-align: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-top: 1.3rem;
+  border: 8rpx solid rgb(250, 200, 125);
+  border-radius: 2rem;
+}
+
+.font1{
+  position: relative;
+  float: left;
+  top: 0.9rem;
+  left: 0.5rem; 
+  font-size: 0.6rem;
+}
+
+
+
+.img{
+  position: relative;
+  float: left;
+  left: 14rpx;
+  top: 13rpx;
+  width: 1.8rem;
+  height: 1.8rem;
+}

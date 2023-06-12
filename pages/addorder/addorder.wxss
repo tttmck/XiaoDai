@@ -1,0 +1,34 @@
+.allcard{
+  position: relative;
+  float: left;
+  left: 20rpx;
+  width: 20%;
+}
+
+.cards{
+  position: relative;
+  text-align: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-top: 1.3rem;
+  border: 8rpx solid rgb(250, 200, 125);
+  border-radius: 2rem;
+}
+
+.img{
+  position: relative;
+  float: left;
+  left: 13.5rpx;
+  top: 13rpx;
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+.font1{
+  position: relative;
+  float: left;
+  clear: both;
+  top: 0.2rem;
+  left: 0.7rem; 
+  font-size: 0.5rem;
+}

@@ -1,0 +1,170 @@
+
+.body{
+  background-size: cover;
+  margin: 0;
+  /* background-color: rgba(247, 168, 22, 0.308); */
+  } 
+.one{
+ /* background-color: black; */
+padding: 0.5em;
+}
+/* .one-one{
+  border-radius: 8rpx;
+  height: 100rpx;
+  width: auto;
+  background-color:  rgba(35, 160, 223, 0.575);
+} */
+.dogone{
+  position: relative;
+  float: left;
+  font-weight:  bold;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   padding: 0.5em 1.2em  0.5em 0.2em ;
+}
+.dogthree-one{
+  display: flex;
+  align-items: center;
+  /* justify-content: center;   */
+  width: 100%;
+  height: 100%;
+}
+
+.save{
+  position: fixed;
+  right: 2.5%;
+  top:-1rpx;
+  background:rgb(253, 211, 23);
+  font-size: 40rpx;
+  font-weight: 800;
+  transform: scale(0.7);
+}
+
+.dogtwo{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight:  bold;
+  box-shadow: 0 0 8rpx rgba(117, 97, 7, 1) inset;
+  position: relative;
+  float: right;
+  padding: 0.5em 1.2em  0.5em 1.2em ;
+  background-color:  rgba(185, 153, 11, 0.829);
+  color: white;
+  border-radius: 0.8em;
+}
+.dogtwo-hover{
+  box-shadow:0px 0px 12rpx  rgba(117, 97, 7, 1) inset; 
+}
+.itemView{
+   margin: 0.2em;
+}
+.dogthree{
+ 
+  clear: both;
+  font-size: 0.8em;
+   /* background-color: rgb(212, 196, 255); */
+   padding: 2.5em 0em  0.3em 0em ;
+   font-weight:  bold;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.input{
+  margin: 1em  0.2em 0 0;
+  height: 0.5em;
+  border-radius: 0.2em;
+  background-color:  rgba(201, 201, 201, 0.61);
+}
+.two{
+  
+  display: flex;
+  align-items: center;
+  /* justify-content: center;   */
+  width: 100%;
+  height: 100%;
+/* padding: 0.5em; */
+}
+.god{
+  margin: 0.2em;
+  font-size: 0.8em;
+   /* background-color: rgb(212, 196, 255); */
+   padding: 0.3em 0em  0.3em 0em ;
+   font-weight:  bold;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   float: left;
+   position: relative;
+}
+.cricle{
+  position: relative;
+  left:8em;
+  width: 2em;
+  height: 2em;
+  background-color:  rgb(49, 226, 226);
+  border-radius: 50%;
+  border: solid 1px black;
+  
+}
+.three{
+  /* margin: 0.5em;
+  left: 0.5em; */
+
+  display: inline-block;
+  flex-direction: column;
+  width: 100%;
+}
+.cricle2{
+  position: relative;
+  width: 10%;
+  height: 0;
+  padding-bottom: 10%;
+  /* background-color:  rgba(248, 234, 36, 0.829); */
+  border-radius: 50%;
+
+  margin:5%;
+  display: inline-block;
+}
+.four{
+padding: 0.5em;
+}
+.four-one{
+  display: flex;
+  align-items: center;
+  /* justify-content: center;   */
+  width: 100%;
+  height: 100%;
+}
+.god-one{
+  margin: 0.2em;
+  font-size: 0.8em;
+   /* background-color: rgb(212, 196, 255); */
+   padding: 0.3em 0em  0.3em 0em ;
+   font-weight:  bold;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   float: left;
+   position: relative;
+}
+.section{
+  clear: both;
+  padding: 20rpx;
+   font-size: 28rpx;
+}
+.imageone{
+  float: left;
+}
+.picker-font{
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  width: 100%;
+  height: 100%;
+}
+.five{
+  width: 100%;
+  height: 150rpx;
+}
+.img2{
+  top:11rpx;
+  position: relative;
+  left: 13rpx;
+  width: 50rpx;
+  height: 50rpx;
+}
+.cricle2-hover{
+  background: rgb(134, 134, 134) !important;
+}

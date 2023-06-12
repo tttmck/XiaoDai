@@ -1,0 +1,59 @@
+/* pages/myInfo/myInfo.wxss */
+/* page{
+  background: url(http://chuantu.xyz/t6/702/1558408889x3030586988.jpg);
+  background-size: 100% 100%; 
+} */
+page{background-color:#f3f6f8;}
+.head{
+  height: 150rpx;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: white;
+  margin-bottom: 30rpx;
+}
+
+.txt{
+  font-size: 50rpx;
+  font-weight: 650;
+}
+
+.info{
+  width: 100%;
+  display: flex;
+  background: white;
+  margin-bottom: 2px;
+}
+.info_img{
+  position: relative;
+  flex: 2;
+  left: 10rpx;
+  top: 10rpx;
+  width: 70rpx;
+  height: 70rpx;
+}
+
+.infoTxt{
+  flex: 7;
+  margin-left: 30rpx;
+}
+.infoH{
+   display: flex;
+}
+.infoH1{
+  flex: 7;
+  height: 50rpx;
+  line-height: 50rpx;
+}
+.infoH2{
+  flex: 7;
+  height: 50rpx;
+  line-height: 50rpx;
+  font-size: 30rpx;
+  margin-left: 300rpx;
+}
+.infoT{
+  height: 50rpx;
+  line-height: 50rpx;
+  font-size: 30rpx;
+}

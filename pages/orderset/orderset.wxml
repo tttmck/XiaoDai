@@ -1,0 +1,11 @@
+ <view class='txt'> 选择一个事件进行修改</view>
+ <view class='defaultcard'>
+  <view class='addcard' wx:for="{{allthings}}" wx:key = "777" data-name='{{item.things}}' id='{{item.count}}' bindtap='addon' >
+    <view class='cards' >
+    <image class='img' src="{{item.imgsrc}}"></image>
+    <text class='font1'>{{item.things}}</text>
+    </view>
+    
+  </view>
+
+</view>

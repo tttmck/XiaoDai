@@ -1,0 +1,8 @@
+<view class = 'allcard'  wx:for="{{allthings}}" wx:key="444" data-cls = '{{item.activecls}}' data-imgurl = '{{item.imgsrc}}' data-name='{{item.things}}' id='{{item.count}}' bindtap='addon' >
+  <view class='cards' >
+  <image class='img' src="{{item.imgsrc}}"></image>
+  
+  </view>
+  <text class='font1'>{{item.things}}</text>
+</view>
+

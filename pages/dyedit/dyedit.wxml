@@ -1,0 +1,46 @@
+<view class='bg'></view>
+
+
+<view class="bigk">
+  <view class='infor'>
+    <view class='inforform'>
+		    <view class="title">日期</view>
+			    <view class='dpicker'>
+				  {{date}}
+			    </view>
+    </view>
+    <view class="inforform">
+		  <view class="title">地址选择</view>
+		  <picker mode="region" bindchange="RegionChange" value="{{region}}" custom-item="{{customItem}}">
+			  <view class="picker">
+				{{region[0]}}，{{region[1]}}，{{region[2]}}
+			  </view>
+		  </picker>
+      <view class='go_icon'>
+          <image src='../images/go_logo.png' mode="aspectFit"></image>
+        </view>
+	  </view>
+    <view class="inforform">
+		  <view class="title">心情选择</view>
+		    <picker bindchange="PickerChange"  range="{{picker}}">
+          <image class="imgpicker" mode="aspectFit" src="{{pickerimg[index]}}"></image>
+		    </picker>
+        <view class='go_icon'>
+          <image src='../images/go_logo.png' mode="aspectFit"></image>
+        </view>
+	  </view>
+  </view>
+  <form bindsubmit='save'>
+  <textarea class='content' value="{{inner}}" auto-height="{{myfalse}}" adjust-position="{{mytrue}}" show-confirm-bar="{{mytrue}}" focus="{{focus}}" maxlength="2000" placeholder="开始记日记吧" bindconfirm="over" bindblur="over" bindinput='changeinner' bindlinechange="rowchange" space = "emsp" decode="{{myture}}">
+  </textarea>
+
+
+
+<view class='function'>
+    <!-- <view class='saveinner'>保存:</view> -->
+    <button class='save'form-type='submit'>保存</button>
+</view>
+
+</form>
+</view>
+

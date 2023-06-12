@@ -1,0 +1,8 @@
+<!--pages/showpages/showpages.wxml-->
+<view class='showimg' style='display:{{dsply1}}'>
+  <image class='{{imgcls}}' src='{{showimg[num]}}'></image>
+  <image class='{{imgcls}}' src='{{showimg[num]}}'></image>
+  <image class='{{imgcls}}' src='{{showimg[num]}}'></image>
+  <image class='{{imgcls}}' src='{{showimg[num]}}'></image>
+  <button class='showbut' bindtap='nextshow'>{{butdata}}</button>
+</view>

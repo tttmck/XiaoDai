@@ -1,0 +1,30 @@
+<view class='body'>
+  <view class='one'>
+  <view class='one-one'>
+    <view class='dogone'>编辑事件</view>
+    <button class='save' bindtap='SaveThings' hover-class="dogtwo-hover">保存</button>
+  </view>
+    
+  </view>
+  <view class='four'>
+  <view class='dogthree'>
+    <view class='dogthree-one'>
+    <image class='imageone' src='../../images/thing.png' style='height:45rpx; width:45rpx;'></image>
+      给该事件命名：
+      </view>
+      <view class="itemView">
+        <input class="input" name="userName" placeholder="最多三个字符" maxlength='3' bindinput ="userNameInput"/>
+      </view>
+    </view>
+  <view class='two'>
+    <image class='imageone' src='../../images/choice.png' style='height:29rpx; width:29rpx;'></image> 
+    <view class='god'>挑选一个图标：</view>
+  </view>
+  <view class='three'>
+    <view class='cricle2' hover-class='cricle2-hover' wx:for="{{array}}" wx:key="777" wx:for-index="index" data-id = "{{index}}" style=' background-color: {{item.color}}' bindtap='choice'>
+    <image class='img2' src="{{objectArray[index].url}}"></image>
+    </view>
+  </view>
+</view>
+<view class='five'></view>
+</view>

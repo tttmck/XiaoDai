@@ -1,0 +1,10 @@
+<!--pages/aboutus/aboutus.wxml-->
+<view class='outview'>
+  <view>"小呆提记"</view>
+</view>
+
+<view class='introduce'>
+  “小呆提记”是一款个人开发的日记及记事软件。
+</view>
+
+<button bindtap='back' class='iknow'>我已知晓</button>

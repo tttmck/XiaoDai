@@ -1,0 +1,57 @@
+<view class='showimg' style='display:{{dsply1}}'>
+  <image class='{{imgcls}}' src='{{showimg[num]}}'></image>
+  <image class='{{imgcls}}' src='{{showimg[num]}}'></image>
+  <image class='{{imgcls}}' src='{{showimg[num]}}'></image> 
+  <image class='{{imgcls}}' src='{{showimg[num]}}'></image>
+  <button open-type='{{opentype}}' class='showbut' bindgetuserinfo="{{onGotUserInfo}}" bindtap='nextshow'>{{butdata}}</button>
+</view>
+<view style='display:{{dsply2}}'> 
+<view class = 'default'> 
+  <view class='defaultcard0'> 
+  <image src="../../images/bg1.jpg" class="image"></image>
+    <view class='allcard' wx:for="{{circlecardloop}}" wx:key = "222" data-name='{{item.things}}' data-id='{{index}}' id='{{item.count}}' bindtap='cancle'> 
+      <view class='{{item.activecls}}'> 
+      <image src="{{item.imgsrc}}" class='innerimg'></image>
+      </view> 
+      <view class='font'>{{item.things}}</view> 
+    </view> 
+    <view bindtap='addorder' class='addto' hover-class='addto-down' hover-stay-time='500'> 
+      <image src="../../images/add1.png" class = "image2"></image>
+    </view> 
+  </view> 
+  <view class='defaultcard1'>  
+  
+  </view>
+<view class="DiaryCard" wx:for="{{arrayshow}}" data-id = "{{index}}" wx:key = "555" hover-class="DiaryCard-down" hover-stay-time='500' bindtap='wooo'>
+  <image src="../../images/bg2.jpg" class="image1"></image>
+  <view class='CD1'>
+    <image src="{{item.dayimg}}" mode='aspectFit'></image>
+    <text class='aa'>{{item.date}}</text>
+    <text>今天的心情:</text>
+          <image class="imgpicker" mode="aspectFit" src="{{pickerimg[item.index]}}"></image>
+  </view>
+  <view class='CD2'>
+    <text>{{item.inner}}</text>
+  </view>
+</view>
+
+<view class="DiaryCard" hover-class="DiaryCard-down" hover-stay-time='500'>
+  <image src="../../images/bg2.jpg" class="image1"></image>
+  <view class='CD1'>
+    <image src="{{item.dayimg}}" mode='aspectFit'></image>
+    <text class='aa'>默认不可删除</text>
+          <image class="imgpicker" mode="aspectFit" src="{{pickerimg[item.index]}}"></image>
+  </view>
+  <view class='CD2'>
+    <text>点击下方'+'写日记,点击上方'+'添加提醒事件，点击事件达成</text>
+  </view>
+</view>
+
+
+<view class='{{action}}' bindtap='addiary'>
+  <image src="../../images/addsym.png" class="image2"></image>
+</view>
+
+</view>
+
+</view>

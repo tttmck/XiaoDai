@@ -1,0 +1,30 @@
+/* pages/myQuest/myQuest.wxss */
+page{
+  background:url(https://687a-hztx-8bc80c-1257718290.tcb.qcloud.la/quest.jpg?sign=2ba76f9734cdfdf27404d3946493b251&t=1558697190);
+  background-size: 100% 100%; 
+}
+
+.aboutAll{
+  margin-top: 500rpx;
+  /* background: #f3f6f8;
+  opacity:0.5 */
+}
+
+.questRow{
+  display: flex;
+}
+.quest{
+  background: url('https://687a-hztx-8bc80c-1257718290.tcb.qcloud.la/bubble.png?sign=4f3920c5dfb557c5c0057b18698f1a49&t=1558697179');
+  flex: 3;
+  display: flex;
+  height: 250rpx;
+  background-size: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.txt{
+  font-size: 35rpx;
+  font-weight: 600;
+  width: 140rpx;
+}
+

@@ -1,0 +1,49 @@
+/* pages/fedback/fedback.wxss */
+page{
+  background-color: rgb(245, 245, 245)
+}
+
+
+.outview{
+  position: relative;
+  text-align: center;
+}
+
+.write{
+  position: relative;
+  top: 60rpx;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.txt{
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  border-radius:0.4rem;
+  padding: 20rpx;
+  overflow: scroll;
+}
+
+.write1{
+  position: relative;
+  top: 80rpx;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.txt1{
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  border-radius:0.4rem;
+  padding: 20rpx;
+}
+
+.fedback{
+  position: relative;
+  top: 150rpx;
+  width: 33%;
+  background-color: rgb(255, 255, 255);
+  transform: scale(0.8);
+  font-weight: 800;
+  box-shadow: 0 0 0.1rem gray;
+}

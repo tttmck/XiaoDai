@@ -1,0 +1,172 @@
+.bg{
+    position: fixed;
+    width: 100%;
+    height:100%;
+    background-image: url('https://687a-hztx-8bc80c-1257718290.tcb.qcloud.la/calmbg.jpg?sign=f95180095180d1b1a9f39650ea906949&t=1557828866');
+    background-size:cover;
+    background-repeat:no-repeat;
+    z-index: -1;
+}
+.bigk{
+  /* position: fixed; */
+  /* height: 1200rpx; */
+  position: fixed;
+  top:85rpx;
+  width: 100%;
+
+}
+.infor{
+  position: relative;
+  width: 95%;
+  height: 250rpx;
+  top: 10rpx;
+  margin: 0 auto;
+  border-radius: 30rpx;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 0.2rem rgb(194, 194, 194);
+}
+
+.inforform{
+  padding-left: 40rpx;
+  margin: 0;
+  width: 100%;
+  height: 33%;
+  display:flex;
+  flex-direction: row;
+  font-size: 0.9rem;
+}
+.inforform .title{
+  width: 24%;
+  height: 100%;
+  padding-top: 15rpx;
+}
+.inforform picker{
+  text-align: right;
+  width: 60%;
+  height: 100%;
+  padding-top: 15rpx;
+}
+
+.dpicker{
+  text-align: right;
+  width: 60%;
+  height: 100%;
+  padding-top: 15rpx;
+}
+
+.inforform .go_icon{
+  height: 100%;
+  width: 12%;
+}
+.inforform .go_icon image{
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+.imgpicker{
+  width: 70rpx;
+  height: 70rpx;
+  padding-right: 20rpx;
+}
+
+.daylocation{
+  padding-left: 40rpx;
+  margin: 0;
+  width: 100%;
+  height: 30%;
+}
+.dayxq{
+  padding-left: 40rpx;
+  padding-top: 15rpx;
+  margin: 0;
+  width: 100%;
+  height: 33%;
+}
+.content{
+  width: 92%;
+  height: 700rpx;
+  margin: 20rpx auto;
+  border-radius: 20rpx;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+  padding: 10rpx;
+  box-shadow: 0 0 0.2rem rgb(209, 209, 209);
+}
+.content view{
+  height: 200%;
+  width: 100%;
+  padding: 20rpx;
+}
+.content view text{
+  position: relative;
+  top: -74rpx;
+  left: -20rpx;
+}
+.content textarea{
+  height: 200%;
+  width: 100%;
+  /* background-color: beige; */
+}
+.aaa{
+  text-indent: 2em;
+  text-align: left;
+  color: black;
+}
+.function{
+  position:fixed;
+  top: 0rpx;
+  width: 100%;
+  height: 85rpx;
+}
+#writebt{
+  position: relative;
+  float: left;
+  width: 15%;
+  height: 100%;
+  left: 180rpx;
+  text-align: center;
+  /* background-color: rgb(0, 162, 255);  */
+}
+#writebt image{
+  height: 100%;
+  width: 80%;
+}
+
+.save{
+  position: fixed;
+  right: 2.5%;
+  top:-1rpx;
+  background:rgb(253, 211, 23);
+  font-size: 40rpx;
+  font-weight: 800;
+  transform: scale(0.7);
+}
+
+.save-down{
+  animation: donghua 0.7s forwards;
+}
+
+@keyframes donghua{
+  0%{
+    left: 0rpx;
+    top:-15rpx;
+    background-size: 110rpx;
+  }
+  50%{
+    left: 25rpx;
+    top:10rpx;
+    background-size: 60rpx;
+  }
+  100%{
+    left: 0rpx;
+    top:-15rpx;
+    background-size: 110rpx;
+  }
+}
+
+.saveinner{
+  position: relative;
+  top: 20rpx;
+  left: 280rpx;
+  float: left;
+}

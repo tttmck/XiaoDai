@@ -1,0 +1,44 @@
+<!--pages/mySet/mySet.wxml-->
+<view class='aboutall'>
+
+
+  <view class="my_tag"  bindtap='yinsi'>
+    <view class="tag_name">
+      隐私
+    </view>
+    <view class="go_logo">
+      <image class="my_pic" src="../../images/go_logo.png"></image>
+    </view>
+  </view>
+    
+  <view class='divide'></view>
+  
+
+  <view class="my_tag">
+    <view class="tag_name">
+      网络监测
+    </view>
+    <view class="go_logo">
+      <image class="my_pic" src="../../images/go_logo.png"></image>
+    </view>
+  </view>
+  <view class="my_tag" bindtap='clear'>
+    <view class="tag_name">
+      清除缓存
+    </view>
+    <view class="go_logo">
+      <image class="my_pic" src="../../images/go_logo.png"></image>
+    </view>
+  </view>
+
+  <view class='divide'></view>
+
+  <view class="my_tag" bindtap='aboutus'>
+    <view class="tag_name">
+      关于我们
+    </view>
+    <view class="go_logo">
+      <image class="my_pic" src="../../images/go_logo.png"></image>
+    </view>
+  </view>
+</view>

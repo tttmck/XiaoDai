@@ -1,0 +1,40 @@
+<!--pages/myQuest/myQuest.wxml-->
+<view class='aboutAll'>
+
+<view class='questRow'>
+  <view class='quest'>
+    <view class='txt'>
+      增加记录问题反馈
+    </view>
+  </view>
+  <view class='quest'>
+    <view class='txt'>
+      时间地点变更反馈
+    </view>
+  </view>
+  <view class='quest'>
+    <view class='txt'>
+      软件Bug反馈
+    </view>
+  </view>
+</view>
+
+<view class='questRow'>
+  <view class='quest'>
+    <view class='txt'>
+      发布内容误删申诉
+    </view>
+  </view>
+  <view class='quest'>
+    <view class='txt'>
+      常见问题与帮助
+    </view>
+  </view>
+  <view class='quest'>
+    <view class='txt'>
+      我还有其他问题..
+    </view>
+  </view>
+</view>
+</view>
+
